@@ -1,0 +1,4 @@
+Full Path: C:\Users\basel\source\repos\DocumentGenerationSolution\TestRunner\bin\Debug\net8.0\TestTemplates\template.docx
+Template Length: 0
+Full Path: C:\Users\basel\source\repos\DocumentGenerationSolution\TestRunner\bin\Debug\net8.0\TestTemplates\template.docx
+Template Length: 0

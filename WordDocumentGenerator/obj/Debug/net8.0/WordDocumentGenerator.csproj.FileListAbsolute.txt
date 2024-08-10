@@ -1,0 +1,12 @@
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.csproj.AssemblyReference.cache
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.AssemblyInfoInputs.cache
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.AssemblyInfo.cs
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.csproj.CoreCompileInputs.cache
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\bin\Debug\net8.0\WordDocumentGenerator.deps.json
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\bin\Debug\net8.0\WordDocumentGenerator.dll
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\bin\Debug\net8.0\WordDocumentGenerator.pdb
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.dll
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\refint\WordDocumentGenerator.dll
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\WordDocumentGenerator.pdb
+C:\Users\basel\source\repos\DocumentGenerationSolution\WordDocumentGenerator\obj\Debug\net8.0\ref\WordDocumentGenerator.dll

@@ -1,0 +1,930 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WordDocumentGenerator/1.0.0": {
+        "dependencies": {
+          "Aspose.Words": "24.8.0",
+          "DocX": "3.0.1",
+          "GemBox.Document": "35.0.1817",
+          "MiniWord": "0.8.0",
+          "PDFsharp-MigraDoc": "6.1.1",
+          "Syncfusion.DocIO.NET": "26.2.8",
+          "Syncfusion.DocIO.Net.Core": "26.2.8"
+        },
+        "runtime": {
+          "WordDocumentGenerator.dll": {}
+        }
+      },
+      "Aspose.Words/24.8.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "SkiaSharp": "2.88.8",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Aspose.Words.Pdf2Word.dll": {
+            "assemblyVersion": "24.8.0.0",
+            "fileVersion": "24.8.0.0"
+          },
+          "lib/net8.0/Aspose.Words.dll": {
+            "assemblyVersion": "24.8.0.0",
+            "fileVersion": "24.8.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.1": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.1": {
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "DocX/3.0.1": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "System.IO.Packaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Document.NET.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "lib/net5.0/Xceed.Words.NET.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "GemBox.Document/35.0.1817": {
+        "dependencies": {
+          "HarfBuzzSharp": "7.3.0",
+          "Portable.BouncyCastle": "1.9.0",
+          "SixLabors.ImageSharp": "2.1.8",
+          "SixLabors.ImageSharp.Drawing": "1.0.0",
+          "SkiaSharp": "2.88.8",
+          "System.Buffers": "4.5.1",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Document.dll": {
+            "assemblyVersion": "35.0.0.1817",
+            "fileVersion": "35.0.200.1817"
+          }
+        }
+      },
+      "HarfBuzzSharp/7.3.0": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "7.3.0",
+          "HarfBuzzSharp.NativeAssets.macOS": "7.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.3.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/7.3.0": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/7.3.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "MiniWord/0.8.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MiniWord.dll": {
+            "assemblyVersion": "0.8.0.0",
+            "fileVersion": "0.8.0.0"
+          }
+        }
+      },
+      "PDFsharp-MigraDoc/6.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MigraDoc.DocumentObjectModel.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/MigraDoc.Rendering.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/MigraDoc.RtfRendering.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.Charting.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.Quality.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.Snippets.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.System.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.WPFonts.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          },
+          "lib/net6.0/PdfSharp.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.7121"
+          }
+        },
+        "resources": {
+          "lib/net6.0/de/MigraDoc.DocumentObjectModel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/de/MigraDoc.Rendering.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/de/MigraDoc.RtfRendering.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
+      "SixLabors.Fonts/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/2.1.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp.Drawing/1.0.0": {
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0",
+          "SixLabors.ImageSharp": "2.1.8"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp/2.88.8": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.8",
+          "SkiaSharp.NativeAssets.macOS": "2.88.8"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.8.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.8": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.8": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.NET/26.2.8": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Compression.NET.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/26.2.8": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.DocIO.NET/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.NET": "26.2.8",
+          "Syncfusion.Licensing": "26.2.8",
+          "Syncfusion.OfficeChart.NET": "26.2.8",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.DocIO.NET.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Net.Core/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "26.2.8",
+          "Syncfusion.Licensing": "26.2.8",
+          "Syncfusion.OfficeChart.Net.Core": "26.2.8",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.DocIO.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/26.2.8": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.NET/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.NET": "26.2.8"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.OfficeChart.NET.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/26.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "26.2.8"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "26.2.8.0",
+            "fileVersion": "26.2.8.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.Packaging/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordDocumentGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aspose.Words/24.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tVvDHMRYnkfkZobvmImYawXtaLP18EZQyAcTq5Vv+SPnhPEG6kH6Fx4MdGdkyLa0c6PP88wmWDSKJFAX5Z9StA==",
+      "path": "aspose.words/24.8.0",
+      "hashPath": "aspose.words.24.8.0.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCK1cwFUJ1FGGyYyo++HWl9H1RkqMWIu+FGOLRy6E4L4y0/HIhlJ7N/n1HKboFfOwKn1cMBRxt1RCuDbIEy5YQ==",
+      "path": "documentformat.openxml/3.0.1",
+      "hashPath": "documentformat.openxml.3.0.1.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ifyI7OW7sggz7LQMIAD2aUsY/zVUON9QaHrpZ4MK33iVMeHlTG4uhUE2aLWb31nry+LCs2ALDAwf8OfUJGjgBg==",
+      "path": "documentformat.openxml.framework/3.0.1",
+      "hashPath": "documentformat.openxml.framework.3.0.1.nupkg.sha512"
+    },
+    "DocX/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qCxZTkK6vBGbdyb+0RN3d4a9DkQwFIMsDs9t/9WTVUIeLgEPMHKzo8N+VlgaS2LyGO3FHthRRC1O+rI8ed6E9w==",
+      "path": "docx/3.0.1",
+      "hashPath": "docx.3.0.1.nupkg.sha512"
+    },
+    "GemBox.Document/35.0.1817": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6IWYjh42ipqsuAk+m5OR8C6EGQVg1ljhjhBB89YxyTgMhHlO1Z6xxOWv+DMSPqROf0cJjD/2JPF9dxbUGdtA2w==",
+      "path": "gembox.document/35.0.1817",
+      "hashPath": "gembox.document.35.0.1817.nupkg.sha512"
+    },
+    "HarfBuzzSharp/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OrQLaxtZMIeS2yHSUtsKzeSdk9CPaCpyJ/JCs+wLfRGatjE8MLUS6LGj6vdbGRxqRavcXs79C9O3oWe6FJR0JQ==",
+      "path": "harfbuzzsharp/7.3.0",
+      "hashPath": "harfbuzzsharp.7.3.0.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LWcFJ39j+dN0KK8c/GJJZPPZPL9TqT2FA42/LRGqzUMmSm5LYbINOMnPvUr7RuLR6RFSmKIrgrlgObR8G5ho2A==",
+      "path": "harfbuzzsharp.nativeassets.macos/7.3.0",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.7.3.0.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulEewLMk+dNmbmpy15ny/YusI6JNUWqchF080TV2jgfFBXPXjWm767JleDi/S7hp8eDeEN6GYIIxpvNr5fLvIw==",
+      "path": "harfbuzzsharp.nativeassets.win32/7.3.0",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.7.3.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "MiniWord/0.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9HvIvgYNCrXk+9xIi3c7HhJSyNdd8oObYkwx+HID+WEcNfNS17EbLOkNEvSVcjTWfwtskc5eECpigidu8ujkjg==",
+      "path": "miniword/0.8.0",
+      "hashPath": "miniword.0.8.0.nupkg.sha512"
+    },
+    "PDFsharp-MigraDoc/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0TpoIBth4OLZ41NjrY1rEKZgqFBdMEJ7OLFjdNxd6dv8bhBxuIdolF+ywkY9qS1R9fhAT42zbRU+9yKniN9Gg==",
+      "path": "pdfsharp-migradoc/6.1.1",
+      "hashPath": "pdfsharp-migradoc.6.1.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    },
+    "SixLabors.Fonts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFQsCZlV0xlUyXAOMUo5kkSl+8zAQXXbbdwWchtk0B4o7zotZhQsQOcJUELGHdfPfm/xDAsz6hONAuV25bJaAg==",
+      "path": "sixlabors.fonts/1.0.0",
+      "hashPath": "sixlabors.fonts.1.0.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ML1++vactR5xMW36wHA2nAX3vc6VpR62qYnpopQdLNGbP8BAJ/ckv1IrGIIFRUEQ0JS9EgWr1y1gEa/81f+HaA==",
+      "path": "sixlabors.imagesharp/2.1.8",
+      "hashPath": "sixlabors.imagesharp.2.1.8.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp.Drawing/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-02z/+BESLiV/dn8NV+9+DkK9X6R2UmcwR8AVytupvwKa0EPVqYyx8zh+PpksqSjpibDVnVMXlq3OaMCDeDrEug==",
+      "path": "sixlabors.imagesharp.drawing/1.0.0",
+      "hashPath": "sixlabors.imagesharp.drawing.1.0.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
+      "path": "skiasharp/2.88.8",
+      "hashPath": "skiasharp.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Kn5TSkKlfyS6azWHF3Jk2sW5C4jCE5uSshM/5AbfFrR+5n6qM5XEnz9h4VaVl7LTxBvHvMkuPb/3bpbq0vxTw==",
+      "path": "skiasharp.nativeassets.macos/2.88.8",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.8.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O9QXoWEXA+6cweR4h3BOnwMz+pO9vL9mXdjLrpDd0w1QzCgWmLQBxa1VgySDITiH7nQndrDG1h6937zm9pLj1Q==",
+      "path": "skiasharp.nativeassets.win32/2.88.8",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.8.nupkg.sha512"
+    },
+    "Syncfusion.Compression.NET/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UP/Go5lDUpCIZC7JW9xokh7B/3s55nI496jM93KIRPYmebVwNy1pcG+vO9dFMYHG1U9m7rMo6QBSCDol+DPnPQ==",
+      "path": "syncfusion.compression.net/26.2.8",
+      "hashPath": "syncfusion.compression.net.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mg7hpqsYiuWMiAsY5fQxWdxDMXJdoj0F9aCeNOxyMFJXcH11uXOpGhb4pT4YBT+tXma5LS2v/ySeTJemvr4k1g==",
+      "path": "syncfusion.compression.net.core/26.2.8",
+      "hashPath": "syncfusion.compression.net.core.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.NET/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ogvAwV7S4YvlXIvgTnHdDAPnAIAJ0zDXym/j+IASesVNDBkTCy6bXDiHs8E1E8cXIfGDdi44FtxHGVblP9TOMg==",
+      "path": "syncfusion.docio.net/26.2.8",
+      "hashPath": "syncfusion.docio.net.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bC1KQzm68tcBzlhp2s+BAok/4nl5JV5wI2kdGP5CaWwxjDPJlJhzdZxqpNY553AWaVY6IwwQG7XpoFHpUAXEbg==",
+      "path": "syncfusion.docio.net.core/26.2.8",
+      "hashPath": "syncfusion.docio.net.core.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Kz7fFrzf0QECPbvwtmQjjYLXeMrfqw2MPhQ1BrDUS8orTjajQ+VDXzrSY+GuWv+qUxM77tMl/5u4YLtwi0bSw==",
+      "path": "syncfusion.licensing/26.2.8",
+      "hashPath": "syncfusion.licensing.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.NET/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cEnhD5IywkZKgzXy+4SDHTdkcz/6dYe0G12w23m9esOg02Br8UvpHv6KIxpL4qTXij7dHlUDZXyxeOnf8nMzYA==",
+      "path": "syncfusion.officechart.net/26.2.8",
+      "hashPath": "syncfusion.officechart.net.26.2.8.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/26.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bBQ3aNdTsO3eKJtXMkfuZszFNrbxKWnW/FjzMH91YbxErIDKblVGVQf9ftWyxPKvUYa30P8IifDwfcxlK/0IkQ==",
+      "path": "syncfusion.officechart.net.core/26.2.8",
+      "hashPath": "syncfusion.officechart.net.core.26.2.8.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "path": "system.drawing.common/5.0.2",
+      "hashPath": "system.drawing.common.5.0.2.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "path": "system.io.packaging/8.0.0",
+      "hashPath": "system.io.packaging.8.0.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+      "path": "system.text.encoding.codepages/6.0.0",
+      "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}

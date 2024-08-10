@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Words" Version="24.8.0" />
+    <PackageReference Include="DocX" Version="3.0.1" />
+    <PackageReference Include="GemBox.Document" Version="35.0.1817" />
+    <PackageReference Include="MiniWord" Version="0.8.0" />
+    <PackageReference Include="PDFsharp-MigraDoc" Version="6.1.1" />
+    <PackageReference Include="Syncfusion.DocIO.NET" Version="26.2.8" />
+    <PackageReference Include="Syncfusion.DocIO.Net.Core" Version="26.2.8" />
+  </ItemGroup>
+
+</Project>
